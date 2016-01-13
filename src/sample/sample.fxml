@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane cacheShape="false" centerShape="false" maxHeight="170.0" maxWidth="290.0" minHeight="170.0" minWidth="290.0" prefHeight="170.0" prefWidth="290.0" scaleShape="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <PasswordField layoutX="24.0" layoutY="95.0" prefHeight="30.0" prefWidth="243.0" promptText="Пароль">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </PasswordField>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="8.0" layoutY="8.0" prefHeight="25.0" prefWidth="276.0" text="Логин и пароль" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="24.0" layoutY="49.0" prefHeight="30.0" prefWidth="243.0" promptText="Логин">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <Button layoutX="88.0" layoutY="134.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="ОК" />
+      <Button layoutX="160.0" layoutY="134.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="CSL" />
+   </children>
+</AnchorPane>
