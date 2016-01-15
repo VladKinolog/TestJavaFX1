@@ -5,7 +5,7 @@ import java.util.Date;
 
  // Created by Vladyslav on 13.01.2016.
 
-public class User {
+public class  User {
 
     private String userName;
     private String userSurename;
@@ -14,6 +14,7 @@ public class User {
     private boolean isAdmine;
     private Date dateRegistration;
     private int userId;
+
 
     User(){
     }

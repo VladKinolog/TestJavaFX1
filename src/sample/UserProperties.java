@@ -105,5 +105,7 @@ public class UserProperties {
         return dateRegistration;
     }
 
+    //-----------------------------------------------------------------------
+
 }
 
